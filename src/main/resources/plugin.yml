@@ -1,0 +1,30 @@
+name: FindTheButton
+version: 1.0
+main: io.github.ajgonefishin.findthebutton.FindTheButton
+api-version: 1.17
+commands:
+  myscore:
+    description: Return the button pressing score of a player.
+    usage: /myscore
+    permission: findthebutton.myscore
+    permission-message: You don't have permission to get your score.
+  setgamestate:
+    description: Set the game state of the Find The Button game.
+    usage: /setgamestate <gamestate>
+    permission: findthebutton.setgamestate
+    permission-message: You don't have permission to set the game state.
+  setuparena:
+    description: Set up an arena for the Find the Button minigame.
+    usage: /setuparena <name>
+    permission: findthebutton.setuparena
+    permission-message: You don't have permission to setup an arena.
+  listarenas:
+    description: List all available Find The Button arenas.
+    usage: /listarenas
+    permission: findthebutton.listarenas
+    permission-message: You don't have permission to see the list of arenas.
+  startgame:
+    description: Start a find the button game.
+    usage: /startgame
+    permission: findthebutton.startgame
+    permission-message: You don't have permission to start a Find the Button game.
